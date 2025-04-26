@@ -173,4 +173,4 @@ def get_most_recent_contacts():
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT_NUMBER', '5000')))
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT_NUMBER', '3005')))
